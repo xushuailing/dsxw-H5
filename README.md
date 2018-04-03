@@ -20,7 +20,7 @@ npm run build --report
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
-
+### 参考目录结构
 ```
 ├── build                                       // webpack配置文件
 ├── config                                      // 项目打包路径
