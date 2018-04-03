@@ -1,0 +1,7 @@
+.DS_Store
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+static/德赛西威最终稿

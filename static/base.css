@@ -1,0 +1,224 @@
+@charset "UTF-8";
+
+/*设置默认编码集*/
+
+
+/*
+ *     css 初始化 start 
+ *      auth:hp;
+ */
+
+*,
+*:before,
+*:after {
+    /*text-shadow: none ;
+    -webkit-box-shadow: none ;
+    box-shadow: none ;*/
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-weight: normal;
+    vertical-align: baseline;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 0.14rem;
+    line-height: 1.42857143;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+
+/*各浏览器显示不同，去掉边框等默认样式*/
+
+fieldset,
+img,
+input,
+button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+*{
+    /*display:inline-block;*/
+}
+
+select,
+input,
+textarea {
+    font-size: 0.12rem;
+    margin: 0;
+}
+
+
+/*防止拖动 影响布局*/
+
+textarea {
+    resize: none;
+}
+
+
+/*去掉行内替换元素空白缝隙*/
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+body {
+    /*font: 12px/150% Arial, Verdana, "\5b8b\4f53";*/
+    /*宋体 unicode */
+    color: #666;
+    background: #fff;
+}
+
+
+/*清除浮动*/
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+    display: block;
+}
+
+
+/*.clearfix:after {
+    content: '';
+    clear: both;
+    height: 0;
+    display: block;
+    visibility: hidden;
+}*/
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+
+/*a:hover {*/
+
+
+/*color: #C81623;*/
+
+
+/*}*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 100%;
+}
+
+
+/*废物利用*/
+
+b,
+u,
+s,
+i,
+em {
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.al {
+    text-align: left;
+}
+
+.ac {
+    text-align: center;
+}
+
+.ar {
+    text-align: right;
+}
+
+.hide {
+    display: none;
+}
+
+
+/*css 初始化 end */
+
+
+/* 雪碧图 */
+
+.icon_1 {
+    background: url("./images/dsxw-icon.png")no-repeat;
+    background-size: 6.4rem 11.36rem;
+}
+
+.icon_2 {
+    background: url("./images/dsxw-icon.png")no-repeat;
+    background-size: 3.2rem 5.68rem;
+}
+
+.xingxing,
+.icon-wujiaoxingshixin {
+    color: #FFD202;
+}

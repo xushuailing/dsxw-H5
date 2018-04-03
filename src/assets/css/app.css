@@ -1,0 +1,38 @@
+.app-bg {
+  height: 100%;
+  width: 100%;
+  padding-top: .3rem;
+  background: url("../images/bg.jpg") no-repeat center / cover;
+}
+/* 弹出框 */
+.know-rule {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  padding: .1rem .3rem;
+}
+.know-rule .knowRule-content {
+  height: 4rem;
+  margin-top: 110px;
+  background: #fff;
+  border-radius: .05rem;
+}
+.know-rule .knowRule-content .content-header {
+  background: rgba(255, 0, 0, 0.5);
+  height: 1.30rem;
+  width: 100%;
+  transform: translateY(-0.9rem);
+}
+.know-rule .knowRule-content .content-main {
+  height: 100%;
+  width: 100%;
+  padding: 0 20px;
+}
+.know-rule .knowRule-content .content-main .main-top {
+  height: 100px;
+  width: 100%;
+  background: red;
+}
